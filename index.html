@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>lesson_23</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+		<main class="page">
+			<div class="page__container">
+				<div class="page__video-1">
+					<h2>Відео №1</h2>
+					<h3>Варіант №1</h3>
+					<p>Невірно оператор складе дві строки результатом буде 35-22.</p>
+					<h3>Варіант №2</h3>
+					<p>Вірно виведе число 770.</p>
+					<h3>Варіант №3</h3>
+					<p>Невірно виведе помилку в консолі. інкремент ++ треба добавляти до змінної.</p>
+					<h3>Варіант №4</h3>
+					<p>Невірно виведе 0, треба добавляти інкремент префіксно.</p>
+					<h3>Варіант №5</h3>
+					<p>Невірно виведе 11, тому що в першому виразі повертає Trut і провірка зупиниться.</p>
+					<h3>Варіант №6</h3>
+					<p>Виведе 0, тому що це операнд не Null, і не underfined.</p>
+				</div>
+				<div class="page__video-2">
+					<h2>Відео №2</h2>
+					<h3>Варіант №1</h3>
+					<p>Виведе "Ложь" оператор строгої рівності.</p>
+					<h3>Варіант №2</h3>
+					<p>Виведе "Истина" оператор дорівнює перетворює строку в число.</p>
+					<h3>Варіант №3</h3>
+					<p>Виведе "Истина", тому що зупинеться на першому Trut.</p>
+					<h3>Варіант №4</h3>
+					<p>Виведе "Истина", тому що лапки не пусті.</p>
+				</div>
+				<div class="page__video-3">
+					<h2>Відео №3</h2>
+					<h3>Задача №1</h3>
+					<p>let num = 1;
+						while (num &lt; 6) { console.log(num); num++; }</p>
+					<h3>Задача №2</h3>
+					<p>0 Це false, а false в консоль не виводить. при цій умові</p>
+					<h3>Задача №3</h3>
+					<p>let num = 0;
+						while (num &lt; 3) { console.log(`Число: ${num}`); num++; }</p>
+					<h3>Задача №4</h3>
+					<p>for (let num = 0; num &lt; 2; num++) { for (let size=0; size &lt; 3; size++) { if (size==1) {
+						break; } console.log(size); } }</p>
+				</div>
+				<div class="page__video-4">
+					<h2>Відео №4</h2>
+					<h3>Задача №1</h3>
+					<p>let numOne = 1.005 + Number.EPSILON;
+						numTwo = Math.round(numOne * 100) / 100;
+						console.log(numTwo);</p>
+					<h3>Задача №2</h3>
+					<p>let value = parseFloat("135.58px");
+						console.log(value);</p>
+					<h3>Задача №3</h3>
+					<p>let value = 58 + "Фрилансер";
+						if (isNaN(value)) {
+						console.log('Результат выражения NaN');
+						}</p>
+					<h3>Задача №4</h3>
+					<p>console.log(Math.max(10, 58, 39, -150, 0))</p>
+					<h3>Задача №5</h3>
+					<p>let numOne = Math.floor(58.858);
+						console.log(numOne);</p>
+				</div>
+				<div class="page__video-5">
+					<h2>Відео №5</h2>
+					<h3>Задача №1</h3>
+					<p>let fls = "фрилансер";
+						let text = `Привет! Я ${fls}`;
+						console.log(text); Якщо замінити прості лабки на зворотні тоді виведе "Привет! Я фрилансер"</p>
+					<h3>Задача №2</h3>
+					<p>let text = 'фрилансер';
+						let symbol = text[5];
+						console.log(symbol);</p>
+					<h3>Задача №3</h3>
+					<p>Не вірно виведе в рядок суму рядка і цифер 123456
+					</p>
+					<h3>Задача №4</h3>
+					<p>let text = 'фрилансер';
+						console.log(text.toUpperCase());</p>
+					<h3>Задача №5</h3>
+					<p>let text = 'фрилансер';
+						console.log(text.slice(3, 6));</p>
+					<h3>Задача №6</h3>
+					<p>виводить в консоль false</p>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer"></footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
